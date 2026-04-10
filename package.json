@@ -1,0 +1,40 @@
+{
+  "name": "@dev/utils-toolkit",
+  "version": "1.0.0",
+  "description": "实用的开发工具函数库，包含 JavaScript 和 Python 工具集",
+  "main": "src/js/index.js",
+  "module": "src/js/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src/js/",
+    "src/python/",
+    "types/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/js/",
+    "format": "prettier --write src/js/"
+  },
+  "keywords": [
+    "utils",
+    "toolkit",
+    "utilities",
+    "helpers",
+    "date",
+    "string",
+    "array",
+    "validation",
+    "storage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
