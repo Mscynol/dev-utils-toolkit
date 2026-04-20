@@ -1,0 +1,18 @@
+include LICENSE
+include README.md
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+
+recursive-include src *.py
+
+exclude .gitignore
+exclude .editorconfig
+exclude .prettierrc
+exclude .eslintrc.js
+
+prune .github
+prune tests
+prune docs
+prune types
